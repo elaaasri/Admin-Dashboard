@@ -363,3 +363,23 @@ h3 {
     height: 50px;
     border-radius: 100%;
 }
+.sidebar-footer {
+    display: flex;
+    flex: 1;
+    align-items: end;
+    font-size: 12px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+.sidebar-footer>p {
+    font-family: "Permanent Marker";
+    font-size: 15px;
+}
+.fa-github {
+    color: black;
+    font-size: 25px;
+    transition: transform 0.35s ease-in-out;
+}
+.fa-github:hover {
+    transform: rotate(360deg) scale(1.3);
+}
